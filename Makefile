@@ -1,4 +1,4 @@
-HOST=$(shell hostname)
+HOST ?= $(shell hostname)
 
 .PHONY: all
 
